@@ -12,7 +12,9 @@ function App() {
         {/* <div className="trinagle3"></div> */}
       </div>
       <div className="triangle"></div>
-      <div className="triangle3"></div>
+      <div className="triangle3">
+        <div className="triangle4"></div>
+      </div>
     </div>
   );
 }
