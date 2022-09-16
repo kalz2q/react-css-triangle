@@ -7,7 +7,9 @@ function App() {
   })
   return (
     <div className="App">
-      <div className="triangle"></div>
+      <div className="box1">
+        <div className="triangle"></div>
+      </div>
       <div className="triangle2">
         {/* <div className="trinagle3"></div> */}
       </div>

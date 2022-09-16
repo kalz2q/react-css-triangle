@@ -1,54 +1,63 @@
 .App {
-  text-align: center;
-  /* background-color: #282c34; */
-  /* min-height: 100vh; */
-  display: flex;
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  /* color: white; */
-  padding: 20px;
+    text-align: center;
+    /* background-color: #282c34; */
+    background-color: slategray;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column;/ */
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(10px + 2vmin); */
+    /* color: white; */
+    padding: 30px;
 }
+
+.box1 {
+    position: relative;
+}
+
 .triangle {
-  display: block;
-  width: 0;
-  height: 0;
-  border-top: 100px solid #000000;
-  border-right: 100px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-left: 100px solid transparent;
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #000000;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid transparent;
 }
 
 .triangle2 {
-  position: relative;
-  /* display: block; */
-  width: 200;
-  height: 200;
-  border-top: 100px solid #000000;
-  border-right: 100px solid transparent;
-  /* border-bottom: 100px solid transparent; */
-  /* border-left: 100px solid transparent; */
-  background-color: pink;
+    position: relative;
+    /* display: block; */
+    width: 200;
+    height: 200;
+    border-top: 100px solid #000000;
+    border-right: 100px solid transparent;
+    /* border-bottom: 100px solid transparent; */
+    /* border-left: 100px solid transparent; */
+    background-color: pink;
 }
 
 .triangle3 {
-  position: relative;
-  width: 200;
-  height: 200;
-  background-color: red;
-  /* border-top: 100px solid #000000; */
-  border-top: 100px solid transparent;
-  border-right: 100px solid transparent;
+    position: relative;
+    width: 200;
+    height: 200;
+    background-color: red;
+    /* border-top: 100px solid #000000; */
+    border-top: 100px solid transparent;
+    border-right: 100px solid transparent;
 }
+
 .triangle4 {
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: 0px;
-  top: 10px;
-  border-top: 100px solid blue;
-  border-right: 100px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-left: 100px solid transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    top: 10px;
+    border-top: 100px solid blue;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid transparent;
 }
