@@ -6,25 +6,27 @@
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column;/ */
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     /* font-size: calc(10px + 2vmin); */
     /* color: white; */
     padding: 30px;
 }
 
-.box1 {
+.BOX {
     position: relative;
+    width: 200px;
+    height: 200px;
 }
 
-.triangle {
-    position: absolute;
-    display: block;
+.BOX .triangle {
+    /* position: absolute; */
+    /* display: block; */
     width: 0;
     height: 0;
-    border-top: 100px solid #000000;
+    border-top: 100px solid yellow;
     border-right: 100px solid transparent;
-    border-bottom: 100px solid transparent;
+    /* border-bottom: 100px solid transparent; */
     border-left: 100px solid transparent;
 }
 

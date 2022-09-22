@@ -7,14 +7,17 @@ function App() {
   })
   return (
     <div className="App">
-      <div className="box1">
+      <div className="BOX">
         <div className="triangle"></div>
       </div>
-      <div className="triangle2">
-        {/* <div className="trinagle3"></div> */}
+      <div className="BOX">
+        <div className="triangle2"> </div>
       </div>
-      <div className="triangle"></div>
+
+      <div className="trinagle3"></div>
       <div className="triangle3">
+      </div>
+      <div className="BOX">
         <div className="triangle4"></div>
       </div>
     </div>
